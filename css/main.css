@@ -718,52 +718,6 @@ footer {
     font-size: 10px;
 }
 
-
-/* Style cho bảng*/
-
-.styled-table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid var(--color--light-green);
-    font-size: 16px;
-    table-layout: fixed;
-    overflow-x: auto;
-}
-
-.styled-table th,
-.styled-table td {
-    border: 1px solid var(--color-light-green);
-    padding: 8px;
-    font-size: 14px;
-}
-
-.styled-table th {
-    background-color: var(--color-blue);
-}
-
-.styled-table tr:hover {
-    background-color: rgba(101, 121, 132, 0.5);
-}
-
-.styled-table td {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.styled-table td:hover {
-    background-color: #6d6c865b;
-}
-
-.styled-table a {
-    opacity: 0;
-    animation: topSideAni 1s ease forwards;
-}
-
-.styled-table a:hover {
-    background-color: var(--primary-link-hover);
-}
-
-
 /*Style cho tag*/
 
 .tab {
