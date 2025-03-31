@@ -149,6 +149,7 @@ def markdown_table_to_html(markdown_table):
     html_table += '''</tbody></table>
         <br><br><hr>
         <button id="back-to-top" title="Go to top"><span class="bx bxs-to-top"></span></button>
+        <script src="/js/main.js"></script>
     '''
     return html_table
 
